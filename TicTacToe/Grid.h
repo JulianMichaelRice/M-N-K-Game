@@ -11,14 +11,17 @@ using namespace std;
 class Grid {
 public:
 	Grid(int r, int c, int k);
+    Grid(Grid* &g);
     bool CheckRow(Player player, int row);
     bool CheckCol(Player player, int col);
     bool CheckDia(Player player);
     string GetCell(int row, int col);
     void MarkCell(Player p);
-    int RowCount();
-    int ColCount();
+    const int RowCount();
+    const int ColCount();
+    const int WinCondition();
 	Cell** GetGrid();
+    Player GetOwner(int i, int j);
 	string GetSymbol(int i, int j);
 	void PrintGrid();
 private:

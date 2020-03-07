@@ -17,6 +17,27 @@ Grid::Grid(int r, int c, int k) {
 	}
 }
 
+Grid::Grid(Grid* &g) {
+    m_rows = g->RowCount();
+    m_cols = g->ColCount();
+    m_k = g->WinCondition();
+    m_grid = new Cell*[m_rows];
+
+    for (int i = 0; i < m_rows; i++) {
+        m_grid[i] = new Cell[m_cols];
+    }
+    
+    for (int i = 0; i < m_rows; i++) {
+        for (int j = 0; j < m_cols; j++) {
+            m_grid[i][j].SetOwner(g->GetOwner(i, j));
+        }
+    }
+}
+
+const int Grid::WinCondition() {
+    return m_k;
+}
+
 bool Grid::CheckRow(Player player, int row) {
     int score = 0;
     for (int i = 0; i < m_rows; i++) {
@@ -64,11 +85,11 @@ void Grid::MarkCell(Player p) {
     m_grid[p.GetChoiceRow()][p.GetChoiceCol()].SetOwner(p);
 }
 
-int Grid::RowCount() {
+const int Grid::RowCount() {
     return m_rows;
 }
 
-int Grid::ColCount() {
+const int Grid::ColCount() {
     return m_cols;
 }
 
@@ -78,6 +99,10 @@ Cell** Grid::GetGrid() {
 
 string Grid::GetSymbol(int i, int j) { 
 	return m_grid[i][j].GetOwner().GetSymbol(); 
+}
+
+Player Grid::GetOwner(int i, int j) {
+    return m_grid[i][j].GetOwner();
 }
 
 void Grid::PrintGrid() {
