@@ -1,15 +1,15 @@
-//
-//  main.cpp
-//  TicTacToe
-//
-//  Created by Julian Rice on 3/6/20.
-//  Copyright © 2020 Julian. All rights reserved.
-//
-
 #include <iostream>
+#include <string>
+#include "Grid.h"
+#include "Player.h"
+#include "Cell.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main() {
+  Player player1("Julian", "O");
+  Player player2("Quinlan", "X");
+  Grid grid(3, 3, player1);
+  grid.PrintGrid();
 }
+
