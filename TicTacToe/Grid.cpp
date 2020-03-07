@@ -6,9 +6,10 @@
 
 using namespace std;
 
-Grid::Grid(int r, int c, Player p1) {
+Grid::Grid(int r, int c, int k) {
 	m_rows = r;
 	m_cols = c;
+    m_k = k;
 	m_grid = new Cell*[m_rows];
 
 	for (int i = 0; i < m_rows; i++) {
@@ -16,16 +17,59 @@ Grid::Grid(int r, int c, Player p1) {
 	}
 }
 
-Cell* Grid::GetRow(int num) { 
-	return m_grid[num]; 
+bool Grid::CheckRow(Player player, int row) {
+    int score = 0;
+    for (int i = 0; i < m_rows; i++) {
+        if (player.GetSymbol() == m_grid[row][i].GetOwner().GetSymbol()) {
+            score++;
+        }
+    }
+    if (score >= m_k) {
+        return true;
+    }
+    return false;
 }
-	
-Cell* Grid::GetCol(int num) { 
-	Cell* c = new Cell[m_cols];
-	for (int i = 0; i < m_cols; i++) {
-		c[i] = m_grid[i][num];
-	}
-	return c;
+
+bool Grid::CheckCol(Player player, int col) {
+    int score = 0;
+    for (int i = 0; i < m_rows; i++) {
+        if (player.GetSymbol() == m_grid[i][col].GetOwner().GetSymbol()) {
+            score++;
+        }
+    }
+    if (score >= m_k) {
+        return true;
+    }
+    return false;
+}
+
+bool Grid::CheckDia(Player player) {
+    int score = 0;
+    for (int i = 0; i < m_rows; i++) {
+        if (player.GetSymbol() == m_grid[i][i].GetOwner().GetSymbol()) {
+            score++;
+        }
+    }
+    if (score >= m_k) {
+        return true;
+    }
+    return false;
+}
+
+string Grid::GetCell(int row, int col) {
+    return m_grid[row][col].GetSymbol();
+}
+
+void Grid::MarkCell(Player p) {
+    m_grid[p.GetChoiceRow()][p.GetChoiceCol()].SetOwner(p);
+}
+
+int Grid::RowCount() {
+    return m_rows;
+}
+
+int Grid::ColCount() {
+    return m_cols;
 }
 
 Cell** Grid::GetGrid() { 

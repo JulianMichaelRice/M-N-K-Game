@@ -23,3 +23,24 @@ string Player::GetName() {
 void Player::SetName(string name) { 
 	m_name = name; 
 }
+
+void Player::SetChoice(int row, int col) {
+    m_choice_r = row;
+    m_choice_c = col;
+}
+
+int Player::GetChoiceRow() {
+    return m_choice_r;
+}
+
+int Player::GetChoiceCol() {
+    return m_choice_c;
+}
+
+bool Player::IsWinner() {
+    return m_winner;
+}
+
+void Player::SetWinner() {
+    m_winner = true;
+}
