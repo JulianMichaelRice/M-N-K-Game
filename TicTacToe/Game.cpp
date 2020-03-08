@@ -41,6 +41,8 @@ void Game::Play() {
     //This is to keep things quick & simple for displaying the winner
     string winner;
     
+    Instructions();
+    
     //Game | Event Loop
     /*
      Works perfectly fine, but a future feature I would want to add to
@@ -74,7 +76,7 @@ void Game::Play() {
      Spec did not specific if it wanted me to allow undo-ing after
      the game was finished, so I decided against that particular option.
      */
-    cout << "Congratuations, " << winner << " won! " << endl;
+    cout << "Congratulations, " << winner << " won! " << endl;
     
     //Cleanup and delete everything in m_history
     while (!m_history.empty()) {
@@ -184,6 +186,25 @@ bool Game::PlayerWon(Player p) {
     return false;
 }
 
+/*
+ Instructions() | Type: void |
+    This function prints out some instructions for the players to read
+*/
+void Game::Instructions() {
+    cout << "|--------------------------------------------|" << endl;
+    cout << "| Julian's Tic Tac Toe MNK Game: Instructions" << endl;
+    cout << "| • Mark empty cells with your symbol!" << endl;
+    cout << "| • Try to get " << m_grid.GetK() << " in a row!" << endl;
+    cout << "| • Rows, Columns, Diagonals all count! GL!" << endl;
+    cout << "|--------------------------------------------|" << endl;
+}
+
+/*
+ GetPlayer() | Type: Player |
+    @param n -> The player's number
+    This function returns a player, but that player depends on
+    the number used in the parameter.
+*/
 Player Game::GetPlayer(int n) {
     //Return the player depending on their number
     //Future TODO: Vectors to hold 3+ players & return based on index

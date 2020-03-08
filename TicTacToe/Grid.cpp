@@ -233,10 +233,14 @@ Player Grid::GetOwner(int r, int c) {
     This function prints out the grid.
 */
 void Grid::PrintGrid() {
+    //NOTE: Extra endl's and spacing for formatting and style purposes.
+    cout << endl;
 	for (int i = 0; i < m_rows; i++) {
+        cout << " ";
 		for (int j = 0; j < m_cols; j++) {
 			cout << m_grid[i][j].GetSymbol() << "    ";
 		}
 		cout << endl;
 	}
+    cout << endl;
 }
