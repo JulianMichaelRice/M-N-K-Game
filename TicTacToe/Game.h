@@ -15,6 +15,7 @@ class Game {
 public:
     Game(Player& p1, Player& p2, Grid& g);
     void Play();
+    bool TieGame();
     void PlayerChoice(Player p);
     bool PlayerWon(Player p);
 	void Instructions();

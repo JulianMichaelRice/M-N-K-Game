@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>DB5947EF-E049-451E-8333-36C929CA1F57</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>DB5947EF-E049-451E-8333-36C929CA1F57.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>TicTacToe-eptxzddomunfrtdxzkmpgysenwjg</string>
+			<key>timeStartedRecording</key>
+			<real>605334508.794572</real>
+			<key>timeStoppedRecording</key>
+			<real>605334509.51985896</real>
+			<key>title</key>
+			<string>Build target TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>DB5947EF-E049-451E-8333-36C929CA1F57</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

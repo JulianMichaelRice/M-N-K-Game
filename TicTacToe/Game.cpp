@@ -39,7 +39,7 @@ void Game::Play() {
     m_history.push(g);
     
     //This is to keep things quick & simple for displaying the winner
-    string winner;
+    string winner = "";
     
     Instructions();
     
@@ -62,11 +62,19 @@ void Game::Play() {
             break;
         }
         
+        if (TieGame()) {
+            break;
+        }
+        
         PlayerChoice(m_p2);
         
         if (PlayerWon(m_p2)) {
             m_p2.SetWinner();
             winner = m_p2.GetName();
+            break;
+        }
+        
+        if (TieGame()) {
             break;
         }
     }
@@ -76,12 +84,26 @@ void Game::Play() {
      Spec did not specific if it wanted me to allow undo-ing after
      the game was finished, so I decided against that particular option.
      */
-    cout << "Congratulations, " << winner << " won! " << endl;
+    if (winner != "")
+        cout << "Congratulations, " << winner << " won! " << endl;
+    else
+        cout << "Tie Game!" << endl;
     
     //Cleanup and delete everything in m_history
     while (!m_history.empty()) {
         m_history.pop();
     }
+}
+
+bool Game::TieGame() {
+    for (int i = 0; i < m_grid.RowCount(); i++) {
+        for (int j = 0; j < m_grid.ColCount(); j++) {
+            if (m_grid.GetSymbol(i, j) == "-") {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 /*
