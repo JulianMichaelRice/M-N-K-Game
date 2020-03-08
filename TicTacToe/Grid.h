@@ -1,3 +1,9 @@
+/* -----------------------------
+| Julian M. Rice
+| TicTacToe (MNK Version, C++)
+| March 2020
+----------------------------- */
+
 #ifndef GRID_INCLUDED
 #define GRID_INCLUDED
 
@@ -15,14 +21,14 @@ public:
     bool CheckRow(Player player, int row);
     bool CheckCol(Player player, int col);
     bool CheckDia(Player player);
-    string GetCell(int row, int col);
-    void MarkCell(Player p);
+    bool ConsecutiveCheck(Player player, int r, int c, int& score, bool& in_row);
+    void MarkCell(Player player);
+    const int GetK();
     const int RowCount();
     const int ColCount();
-    const int WinCondition();
 	Cell** GetGrid();
-    Player GetOwner(int i, int j);
-	string GetSymbol(int i, int j);
+    Player GetOwner(int r, int c);
+	string GetSymbol(int r, int c);
 	void PrintGrid();
 private:
 	int m_rows;

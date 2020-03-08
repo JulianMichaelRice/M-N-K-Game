@@ -1,3 +1,9 @@
+/* -----------------------------
+| Julian M. Rice
+| TicTacToe (MNK Version, C++)
+| March 2020
+----------------------------- */
+
 #ifndef GAME_INCLUDED
 #define GAME_INCLUDED
 
@@ -7,15 +13,12 @@ class Grid;
 
 class Game {
 public:
-    Game(Player p1, Player p2, Grid g);
-    void GenerateBoard(int m, int n, int k);
+    Game(Player& p1, Player& p2, Grid& g);
     void Play();
     void PlayerChoice(Player p);
-    void GetInput(Player& p);
-	void Title();
-	void PlayerSetup();
+    bool PlayerWon(Player p);
 	void Instructions();
-    void CalculateVictory(Player& player);
+    Player GetPlayer(int n);
 private: 
     Grid m_grid;
     Player m_p1;
@@ -23,4 +26,4 @@ private:
     stack<Grid> m_history;
 };
 
-#endif GAME_INCLUDED
+#endif //GAME_INCLUDED

@@ -1,3 +1,9 @@
+/* -----------------------------
+| Julian M. Rice
+| TicTacToe (MNK Version, C++)
+| March 2020
+----------------------------- */
+
 #include <iostream>
 #include <string>
 #include "Grid.h"
@@ -22,7 +28,5 @@ int main() {
     game.Play();
     
     grid.PrintGrid();
-    game.CalculateVictory(player1);
-    game.CalculateVictory(player2);
 }
 

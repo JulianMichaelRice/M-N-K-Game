@@ -1,3 +1,9 @@
+/* -----------------------------
+| Julian M. Rice
+| TicTacToe (MNK Version, C++)
+| March 2020
+----------------------------- */
+
 #ifndef CELL_INCLUDED
 #define CELL_INCLUDED
 
