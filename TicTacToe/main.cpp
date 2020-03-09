@@ -52,8 +52,6 @@ int main() {
         Game game(player1, player2, grid);
         game.Play();
         
-        grid.PrintGrid();
-        
         //Future TODO: Score tracking for players
         //Future TODO: Save and load previous win/loss data for players with specific names
         //Future TODO: Password system for 'logging' in with the above save/load features

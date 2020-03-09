@@ -117,6 +117,15 @@ bool Grid::CheckDia(Player player) {
         if (ConsecutiveCheck(player, r, c, score, in_a_row))
             return true;
     }
+    
+    if (m_rows > m_k) {
+        
+    }
+    
+    if (m_cols > m_k) {
+        
+    }
+    
     return false;
 }
 

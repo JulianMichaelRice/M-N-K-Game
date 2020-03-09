@@ -720,6 +720,40 @@
 			<key>uniqueIdentifier</key>
 			<string>1FFA9BBF-6C0E-4D43-9B03-EA39F15C3545</string>
 		</dict>
+		<key>21436343-4FF1-4DD2-A09F-2392276E208F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>21436343-4FF1-4DD2-A09F-2392276E208F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605336348.96391296</real>
+			<key>timeStoppedRecording</key>
+			<real>605336350.12055504</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>21436343-4FF1-4DD2-A09F-2392276E208F</string>
+		</dict>
 		<key>21619984-D765-4BE7-9225-76D9FD9DC030</key>
 		<dict>
 			<key>className</key>
@@ -1944,6 +1978,40 @@
 			<key>uniqueIdentifier</key>
 			<string>514266F8-E51D-4307-B485-69A7F01C9DD3</string>
 		</dict>
+		<key>5174F2E2-CADE-41BD-9A23-09987E709F15</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5174F2E2-CADE-41BD-9A23-09987E709F15.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605335824.77586198</real>
+			<key>timeStoppedRecording</key>
+			<real>605335826.09323096</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>5174F2E2-CADE-41BD-9A23-09987E709F15</string>
+		</dict>
 		<key>52A94455-67F6-4958-A15D-EAF863E41A8F</key>
 		<dict>
 			<key>className</key>
@@ -2318,6 +2386,40 @@
 			<key>uniqueIdentifier</key>
 			<string>5BBADBDD-E54A-4A90-AA45-3C181481E137</string>
 		</dict>
+		<key>5D4CC369-178F-4BD6-91E1-99E807E80189</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5D4CC369-178F-4BD6-91E1-99E807E80189.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605334750.81611705</real>
+			<key>timeStoppedRecording</key>
+			<real>605334751.62301099</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>5D4CC369-178F-4BD6-91E1-99E807E80189</string>
+		</dict>
 		<key>6325D0A8-28C0-4A44-B4A1-FD886E89CC0C</key>
 		<dict>
 			<key>className</key>
@@ -2691,6 +2793,40 @@
 			<string>Build TicTacToe</string>
 			<key>uniqueIdentifier</key>
 			<string>6A9B5902-2BCD-445E-98FA-9B620B422E51</string>
+		</dict>
+		<key>6ACBE99C-467B-48FB-9D24-898165DE32B1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6ACBE99C-467B-48FB-9D24-898165DE32B1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605336128.68947697</real>
+			<key>timeStoppedRecording</key>
+			<real>605336128.71309495</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>6ACBE99C-467B-48FB-9D24-898165DE32B1</string>
 		</dict>
 		<key>6CBB3445-ED09-4739-B79C-FC8153CE4B84</key>
 		<dict>
@@ -4154,6 +4290,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A3B1F08F-7BE8-4F21-98EA-7A08FDB68309</string>
 		</dict>
+		<key>A4867540-E375-455B-997F-4F40D3597F8C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A4867540-E375-455B-997F-4F40D3597F8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605334745.37596703</real>
+			<key>timeStoppedRecording</key>
+			<real>605334746.70724905</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>A4867540-E375-455B-997F-4F40D3597F8C</string>
+		</dict>
 		<key>A56C2F90-425C-4ACE-A5A3-57B560385ACA</key>
 		<dict>
 			<key>className</key>
@@ -4425,6 +4595,40 @@
 			<string>Build TicTacToe</string>
 			<key>uniqueIdentifier</key>
 			<string>ADA91CA3-9959-4400-83C0-5552D7543E8D</string>
+		</dict>
+		<key>AE4CF128-2A49-47D3-BC3F-4425B7D014B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE4CF128-2A49-47D3-BC3F-4425B7D014B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605336090.62707996</real>
+			<key>timeStoppedRecording</key>
+			<real>605336091.34847498</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>AE4CF128-2A49-47D3-BC3F-4425B7D014B3</string>
 		</dict>
 		<key>B0D1B5DB-EF38-4A1E-B00E-E136D2743034</key>
 		<dict>
@@ -5581,6 +5785,40 @@
 			<string>Build TicTacToe</string>
 			<key>uniqueIdentifier</key>
 			<string>E290D738-37D9-42D1-A5B8-1AF6B48B665E</string>
+		</dict>
+		<key>E2F3DEEF-5FC3-4654-93DA-A21A964D19D4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E2F3DEEF-5FC3-4654-93DA-A21A964D19D4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TicTacToe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TicTacToe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TicTacToe</string>
+			<key>timeStartedRecording</key>
+			<real>605335985.923756</real>
+			<key>timeStoppedRecording</key>
+			<real>605335987.245556</real>
+			<key>title</key>
+			<string>Build TicTacToe</string>
+			<key>uniqueIdentifier</key>
+			<string>E2F3DEEF-5FC3-4654-93DA-A21A964D19D4</string>
 		</dict>
 		<key>E4CE2079-8F97-496D-9C63-E4E85E15816B</key>
 		<dict>

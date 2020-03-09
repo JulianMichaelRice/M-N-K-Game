@@ -59,6 +59,7 @@ void Game::Play() {
         if (PlayerWon(m_p1)) {
             m_p1.SetWinner();
             winner = m_p1.GetName();
+            m_grid.PrintGrid();
             break;
         }
         
@@ -71,6 +72,7 @@ void Game::Play() {
         if (PlayerWon(m_p2)) {
             m_p2.SetWinner();
             winner = m_p2.GetName();
+            m_grid.PrintGrid();
             break;
         }
         
